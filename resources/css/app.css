@@ -1,0 +1,14 @@
+.donation-separator {
+    border: 0; 
+    border-top: 1px dashed #aaa; 
+    margin: 10px 0;
+}
+
+
+.description-column {
+    max-width: 30px; /* Or whatever width you prefer */
+    word-wrap: break-word; /* Wrap long words onto the next line */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Add ellipsis when the content overflows */
+    white-space: nowrap; /* Prevent text from wrapping onto next line - useful with ellipsis */
+}
